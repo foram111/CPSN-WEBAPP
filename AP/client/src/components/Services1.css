@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Lexend+Deca:wght@300;400&family=Overpass:wght@500;600;700&family=PT+Sans:wght@400;700&family=Poppins:wght@200;300&family=Reem+Kufi:wght@700&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Maven+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Koulen&family=Maven+Pro:wght@500&family=Overpass:wght@700;800&display=swap');
+
+body {
+    background-color: rgba(5, 0, 17, 0.863);
+    /* background-color: transparent;} */
+}
+
+
+/* Service Title */
+
+.serviceImage {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#backSide {
+    /* background-color: rgba(0, 0, 0, 0.70); */
+    width: 60%;
+    height: 23rem;
+
+    border: 4px solid white;
+    box-shadow: 2px 2px 2px rgba(255, 195, 76, 0.65);
+
+    position: absolute;
+    transform: translate(-50%, 0);
+    left: 50%;
+    top: 20%;
+}
+
+.serviceText1 {
+    padding: 2rem 3rem;
+    position: absolute;
+    transform: translate(-50%, 0);
+    z-index: 1;
+    color: black;
+    font-size: 4.2rem;
+    text-align: center;
+    left: 50%;
+    width: 100%;
+}
+
+#title {
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.65);
+    font-weight: 500;
+    letter-spacing: 8px;
+    font-size: 4rem;
+    font-family: 'Koulen', cursive;
+    /* font-family: 'Francois One', sans-serif; */
+    /* font-family: 'Lexend Deca', sans-serif; */
+}
+
+
+.country {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 2rem;
+    text-align: center;
+    z-index: 0;
+    border: 1px solid #fff;
+}
+
+.Selections {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+#state {
+    z-index: 0;
+    cursor: pointer;
+    width: 180px;
+    padding: 0.5rem 1rem;
+    margin: 0rem 1rem;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid #fff;
+}
+
+#district {
+    z-index: 0;
+    cursor: pointer;
+    width: 200px;
+    padding: 0.5rem 1rem;
+    margin: 0rem 0rem;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid #fff;
+}
+
+.srch-btn {
+
+    /* position: absolute; */
+    /* left: 50%;
+    transform: translate(-50%); */
+    width: 5.5rem;
+    padding: 0rem 1rem;
+    z-index: 0;
+}
+
+.or {
+    /* padding: 20px; */
+    top: 76%;
+    margin-left: -0.6rem;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    font-size: 2rem;
+    z-index: 0;
+}
+
+
+.serviceHeading {
+    color: white;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.serviceTable {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+table.dataTable thead th {
+    border-bottom: 1px solid white;
+}
+
+#dropdownData {
+    position: absolute;
+    justify-content: center;
+    top: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    left: -1.4rem;
+}
+
+
+.serviceLabel {
+    margin: 0.2rem 1rem;
+    color: white;
+}
+
+#serviceCheckbox {
+    margin: 0rem 0.5rem;
+}

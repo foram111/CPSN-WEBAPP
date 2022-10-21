@@ -1,0 +1,61 @@
+#table_id_wrapper{
+    background-color: #272331;
+    margin: 0 auto;
+    padding: 1rem 1rem  ;
+    /* width: 80%;    */
+}
+
+#table_id_length{
+    color: white;
+}
+
+#table_id_filter{
+    color: white;
+}
+
+thead{
+    color: white;
+}
+
+#table_id{
+    margin-bottom: 2rem;
+    /* width: 100%; */
+}
+
+option{
+    color: black;
+    background-color: white;
+}
+
+#table_id_info{
+    color: white;
+}
+
+#table_id_previous , #table_id_next{
+    color: white !important; 
+}
+
+tfoot{
+    color: white;
+}
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: #fff;
+}
+
+tfoot input {
+    width: 100%;
+    padding: 3px;
+    caret-color: white;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+}
+
+tfoot input::placeholder{
+    font-size: 14px;
+    color: white;
+    caret-color: white;
+}

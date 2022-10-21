@@ -1,0 +1,39 @@
+.Footer
+{
+    height:210px;
+    width: 100%;
+    background-color: black;
+    padding:20px;
+}
+.Logo
+{
+    width: 100px;
+    margin: 0 auto;
+}
+.socialmedia
+{ 
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.description-Footer
+{
+    width: 60%;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+.Insta
+{
+    margin-right: 20px;
+}
+.Insta:hover
+{
+    transform: rotate(360deg);
+}
+.FB
+{
+    margin-right: 20px;
+}

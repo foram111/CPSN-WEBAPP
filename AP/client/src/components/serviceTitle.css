@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Lexend+Deca:wght@300;400&family=Overpass:wght@500;600&family=PT+Sans:wght@400;700&family=Poppins:wght@200;300&family=Reem+Kufi:wght@700&family=Ubuntu&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  .Iam {
+    padding: 0em 5em;
+    margin: 0 0;
+    font: normal 40px/50px Montserrat, sans-serif;
+    color: #999;
+  }
+  .Iam p {
+    /* height: 50px; */
+    height: 56px;
+    float: left;
+    margin-right: 0.3em;
+  }
+  .Iam b {
+    margin-top: -0.8rem;
+    left: 110px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    height: 56px;
+    top: 40px;
+    left: 50%;
+transform: translateX(-50%);
+  }
+  .Iam .innerIam {
+    font-size: 2.9rem;
+    display: inline-block;
+    color: white;
+    text-shadow: none !important;
+    /* color: #EAB354; */
+    /* color: black; */
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 900;
+    position: relative;
+    letter-spacing: 2.4px;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+  
+  
+  /*animation*/
+  -webkit-animation:move 5s;
+     -moz-animation:move 5s;
+      -ms-animation:move 5s;
+       -o-animation:move 5s;
+          animation:move 5s;
+  /*animation-iteration-count*/
+  -webkit-animation-iteration-count:infinite;
+     -moz-animation-iteration-count:infinite;
+      -ms-animation-iteration-count:infinite;
+       -o-animation-iteration-count:infinite;
+          animation-iteration-count:infinite;
+  /*animation-delay*/
+  -webkit-animation-delay:1s;
+     -moz-animation-delay:1s;
+      -ms-animation-delay:1s;
+       -o-animation-delay:1s;
+          animation-delay:1s;
+  }
+  @keyframes move{
+  0%  { top: 0px; }
+  20% { top: -50px; }
+  40% { top: -100px; }
+  60% { top: -150px; }
+  80% { top: -200px; }
+  }
+  
+  @-webkit-keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+  @-moz-keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+  @-o-keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+  @keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+
+  

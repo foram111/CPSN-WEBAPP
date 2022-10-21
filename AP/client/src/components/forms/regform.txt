@@ -1,0 +1,522 @@
+
+.form1
+{
+    height: 73.95vh;
+    width:100%;
+    height: 100%;
+    text-align: center;
+    display: block;
+
+}
+.form2
+{
+    height: 73.95vh;
+    width:100%;
+    height: 700px;
+    text-align: center;
+    display: block;
+
+}
+.background_image
+{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.form-heading
+{
+    margin-top: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.3rem;
+    color: white;
+    /* font-family: "inter-bold"; */
+    font-size: 1.52cm;
+    text-align: center;
+    padding: 40px;
+}
+
+
+@media screen and (min-width:320px){
+    .form-heading{
+        text-align: center;
+
+    }
+}
+.underLine{
+    color:white;
+    text-align: center;
+    margin-top: -30px;
+}
+.inputs
+{
+    width: 77%;
+    margin: 0 auto;
+    z-index: 3;
+    height: auto;
+    margin-top: 20px;
+    text-align: left;
+
+}
+.phone
+{
+    width: 100%;
+  margin: 0 auto;
+  caret-color: #000;
+
+}
+.email
+{
+    width: 100%;
+    margin: 0 auto;
+    caret-color: #000;
+}
+.label
+{
+    font-family: "inter-bold";
+    color: #000;
+}
+
+.name
+{
+    width: 100%;
+    margin: 0 auto;    
+}
+.dropdown
+{
+    margin-bottom: 20px;
+}
+.label1
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.sinputs
+{
+    margin: 0 auto;
+    padding-bottom: 20px;
+    display: grid;
+    caret-color: #000;
+}
+.label2
+{
+    font-family: "inter-bold";
+    color: #fff;
+    margin-bottom: 10px;
+}
+.label3
+{
+    font-family: "inter-bold";
+    color: #000;
+    width: 100%;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+
+.basics
+{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.company-name
+{
+    margin-left: 0px;
+    color:#000;
+    caret-color: #000;
+}
+.inputs1
+{
+    text-align: center;
+}
+
+.backSide
+{
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.blur1
+{
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20%;
+}
+.logo
+{
+  height: 30px;
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+.option
+{
+  height: 50px;
+  width: 143px;
+  padding: 12px;
+}
+.login
+  {
+    position: absolute;
+    margin:15px 30px;
+   right: 10px;
+   font-size: 18px;
+  }
+ .navbar
+  {
+    height: 60px;
+    width: 100%;
+    display: flex;    
+    margin-top:0;
+    z-index: 2;
+    background-color: black;
+    color: #fff;
+  }
+  .navigator
+  {
+      height: 40px;
+  }
+  .register
+  {
+      padding: 20px;
+      font-size: 18px;
+      width: auto;
+  }
+@media only screen and (max-width: 600px)
+{
+    .register
+    {
+        font-size: 12px;
+    }
+    .label
+    {
+        font-size: 15px;
+    }
+    .label2
+    {
+        font-size: 15px;
+    }
+    
+   
+}
+.dropdown1
+{
+    font-size: 16px;
+     font-weight: 900;
+     color: #F2A611;
+     background: transparent;
+}
+.Fileupload
+{
+    width: 100%;
+    background-color: #f2a711b4;
+    color: #fff;
+}
+
+
+.empty-validation{
+    color: red;
+    font-size: 10px;
+}
+.navbar-nav .nav-link {
+    height: 40px;
+    color: rgba(0,0,0,.55);
+}
+
+
+.submitClass{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+ // <div >
+        //     <div className="form-heading">
+        //         SERVICE REGISTRATION FORM
+        //     </div>
+        //     <div className="underLine">____________________</div>
+        //     <div className='backSide'>
+        //         <div className='basics'>
+        //         </div>
+
+        //         <div className='firm-details'>
+        //             <div className='label1'>
+        //                 COMPANY DETAILS
+        //             </div>
+
+        //             <div className='sinputs'>
+        //                 <label htmlFor="name-firm" className='label2'>Building Name</label>
+        //                 <input
+        //                     type="text"
+        //                     id="company-name"
+        //                     name="company-name"
+        //                     value={building}
+        //                     onChange={(e) => {
+        //                         setBuilding(e.target.value);
+        //                         Validate(e.target.value, "buildingname")
+        //                     }}
+        //                     className='company-name' ></input>
+
+        //                 {
+        //                     (building === "")
+        //                         ?
+        //                         <span className="empty-validation">The building name should not be empty.</span>
+        //                         :
+        //                         null
+        //                 }
+        //                 {
+        //                     (err === "2")
+        //                         ?
+        //                         <span className="empty-validation">No Special characters allowed</span>
+        //                         :
+        //                         null
+        //                 }
+        //             </div>
+
+        //             <div className='sinputs'>
+        //                 <label htmlFor="office-firm" className='label2'>Floor</label>
+        //                 <input
+        //                     type="number"
+        //                     id="office-number"
+        //                     name="office-number"
+        //                     onChange={(e) => {
+        //                         setFloorNumber(e.target.value)
+        //                     }}
+
+        //                     className='company-name'></input>
+        //             </div>
+
+
+
+        //             <div className='sinputs'>
+        //                 <label htmlFor="office-firm" className='label2'>Block</label>
+        //                 <input
+        //                     type="text"
+        //                     id="office-number"
+        //                     name="office-number"
+        //                     onChange={(e) => {
+        //                         setBlockNumber(e.target.value);
+        //                         Validate(e.target.value, "Block")
+        //                     }}
+        //                     className='company-name'></input>
+        //                 {
+        //                     (err === "3")
+        //                         ?
+        //                         <span className="empty-validation">No Special characters allowed</span>
+        //                         :
+        //                         null
+        //                 }
+        //             </div>
+
+
+        //             <div className='sinputs'>
+        //                 <label htmlFor="office-firm" className='label2'>Office Number</label>
+        //                 <input
+        //                     type="number"
+        //                     id="office-number"
+        //                     name="office-number"
+        //                     onChange={(e) => {
+        //                         setOfficeNumber(e.target.value, "Office-number");
+        //                         console.log(officeNumber);
+        //                         Validate(e.target.value)
+        //                     }}
+        //                     className='company-name' ></input>
+        //             </div>
+        //             {
+        //                 (err === "4")
+        //                     ?
+        //                     <span className="empty-validation">Only Numbers ar allowed</span>
+        //                     :
+        //                     null
+        //             }
+        //             <div className='sinputs'>
+        //                 <label htmlFor="office-firm" className='label2'>Status</label>
+        //                 <select name="Status" id="Status" onChange={(e) => {
+        //                     setStatus(e.target.value)
+        //                 }}>
+        //                     <option value={0} disabled selected>Select Status </option>
+        //                     <option value="UnOccupied">Uoccupied</option>
+        //                     <option value="Occupied">Occupied</option>
+        //                 </select>
+        //                 {
+        //                     (status === undefined)
+        //                         ?
+        //                         <span className="empty-validation">Select status</span>
+        //                         :
+        //                         null
+        //                 }
+        //             </div>
+
+
+        //             <div className='sinputs'>
+        //                 <label htmlFor="name-firm" className='label2'>Company Name</label>
+        //                 <input
+        //                     type="text"
+        //                     id="company-name"
+        //                     name="company-name"
+        //                     onChange={(e) => {
+        //                         setCompanyName(e.target.value);
+
+        //                     }}
+        //                     className='company-name' ></input>
+        //                 {
+        //                     (comName === "")
+        //                         ?
+        //                         <span className="empty-validation">Company name required</span>
+        //                         :
+        //                         null
+        //                 }
+        //             </div>
+
+
+
+        //             <div className='sinputs' >
+        //                 <label htmlFor="email" className="label">Enter your email:</label>
+        //                 <input
+        //                     type="text"
+        //                     id="email"
+        //                     name="email"
+        //                     className='email'
+        //                     onChange={(e) => {
+        //                         setEmail(e.target.value);
+        //                         Validate(e.target.value, "Email");
+        //                         console.log(e.target.value)
+        //                     }}></input>
+        //                 {
+        //                     (err === "5")
+        //                         ?
+        //                         <span className="empty-validation">Invalid Email</span>
+        //                         :
+        //                         null
+        //                 }
+        //             </div>
+        //             <div className='sinputs'>
+        //                 <label className="label">Enter phone number:</label>
+        //                 <input
+        //                     type="tel"
+        //                     id="phone"
+        //                     name="phone"
+        //                     className="phone"
+        //                     onChange={
+        //                         (e) => {
+        //                             setPhone(e.target.value);
+        //                             Validate(phone, "phone");
+
+        //                         }
+        //                     }></input>
+        //                 {
+        //                     (err === "6")
+        //                         ?
+        //                         <span className="empty-validation">Invalid phone number</span>
+        //                         :
+        //                         null
+        //                 }
+        //             </div>
+
+
+
+        //             <div className='sinputs'>
+        //                 <label htmlFor="name-firm" className='label2'>City</label>
+        //                 <input
+        //                     type="text"
+        //                     id="company-name"
+        //                     name="company-name"
+        //                     onChange={(e) => {
+        //                         setCity(e.target.value);
+        //                         Validate(e.target.value, "city");
+        //                     }}
+        //                     className='company-name' ></input>
+        //                 {
+        //                     (err === "10")
+        //                         ?
+        //                         <span className="empty-validation">City name required</span>
+        //                         :
+        //                         null
+        //                 }
+        //                 {
+        //                     (err === "7")
+        //                         ?
+        //                         <span className="empty-validation">Enetr valid city name.</span>
+        //                         :
+        //                         null
+        //                 }
+        //             </div>
+
+        //             <div className='sinputs'>
+        //                 <label htmlFor="name-firm" className='label2'>State</label>
+        //                 <input
+        //                     type="text"
+        //                     id="company-name"
+        //                     name="company-name"
+        //                     onChange={(e) => {
+        //                         setState(e.target.value)
+        //                         Validate(e.target.value, "state");
+        //                     }}
+        //                     className='company-name' ></input>
+        //                 {
+        //                     (err === "8")
+        //                         ?
+        //                         <span className="empty-validation">Enter valid state</span>
+        //                         :
+        //                         null
+        //                 }
+        //             </div>
+
+        //             <div className='sinputs'>
+        //                 <label htmlFor="name-firm" className='label2'>Pincode</label>
+        //                 <input
+        //                     type="text"
+        //                     id="company-name"
+        //                     name="company-name"
+        //                     onChange={(e) => {
+        //                         setPincode(e.target.value);
+        //                         Validate(e.target.value, "pincode");
+        //                     }}
+        //                     className='company-name' ></input>
+        //                 {
+        //                     (err === "9")
+        //                         ?
+        //                         <span className="empty-validation">Enter valid pincode</span>
+        //                         :
+        //                         null
+        //                 }
+        //             </div>
+
+
+
+        //             <div className='label1'>
+        //                 Logo And Photos
+        //             </div>
+
+        //             {/*                 
+        //                     <div className='sinputs'>
+        //                         <input 
+        //                         type="file" 
+        //                         id="myFile" 
+        //                         name="filename" 
+        //                         className='label3'></input>
+        //                         <button  className='submit' >Upload</button>
+        //                     </div> */}
+        //         </div>
+
+        //         <Multiselect
+        //             showArrow
+        //             onRemove={(e) => { console.log(e); }}
+        //             onSelect={(e) => { setCategory(e); }}
+        //             options={services} displayValue="label" showCheckbox={true} />
+        //         <div className="submitClass">
+        //             <button className="submit" onClick={postUser}>Submit</button>
+        //         </div>
+        //     </div>
+        //     </div>

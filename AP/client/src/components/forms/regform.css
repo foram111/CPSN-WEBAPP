@@ -1,0 +1,324 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Poppins:wght@200;300&family=Reem+Kufi:wght@700&family=Ubuntu&display=swap');
+
+
+.registerForm {
+    color: white;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.State_drop{
+    border: 1px solid white;
+    margin-top: 1.8rem;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 48%;
+}
+
+.Districts_drop{
+    border: 1px solid white;
+    margin-top: 1.8rem;
+    margin-left: 1rem;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 48%;
+}
+
+.mainHeadingBox {
+    position: relative;
+    vertical-align: middle;
+    margin: 0rem 3rem;
+    margin-top: 3.2rem;
+    display: flex;
+    font-weight: 300;
+    flex-direction: column;
+}
+
+.mainHeading {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1rem 0rem;
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+    border-bottom: 2px solid white;
+}
+
+.formBox {
+    /* border: 1px solid whitesmoke; */
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.item {
+    width: 50%;
+}
+
+.inputLeft {
+    caret-color: white;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    width: 100%;
+    color: white;
+    border: 1px solid transparent;
+    border-bottom: 1px solid;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom-color: rgba(255, 255, 255, 0.3);
+}
+
+.inputStatus {
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    width: 100%;
+    color: white;
+    border: 1px solid transparent;
+    border-bottom: 1px solid;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom-color: rgba(255, 255, 255, 0.3);
+
+}
+
+.inputRight {
+    caret-color: rgb(0, 0, 0);
+    color: #0f0e13;
+    width: 100%;
+    border: 1px solid transparent;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+}
+
+.buildingTitle {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.companyTitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.buildingDeatils {
+    background-color: #0f0e13;
+    border-radius: 20px 0px 0px 20px;
+    padding: 0rem 5rem;
+    padding-bottom: 3rem;
+}
+
+
+
+.buildingName {
+    display: block;
+}
+
+.buildingItem1 {
+    font-size: 1.2rem;
+}
+
+.empty-validation {
+    display: block;
+}
+
+
+.buidlingAddress {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+
+}
+
+.buildingItem2 {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.inputFloor {
+
+    /* width: 100px; */
+    width: 80%;
+
+
+}
+
+.inputBlock {
+    width: 80%;
+
+}
+
+.compayDetails {
+    background-color: #fff;
+    color: #0f0e13;
+    border-radius: 0px 20px 20px 0px;
+    width: 50%;
+    padding: 0rem 5rem;
+    padding-bottom: 3rem;
+
+}
+
+.companyName {
+    display: block;
+}
+
+.companyItem {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.companyEmail {
+    display: block;
+}
+
+.inputOffice {
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.status {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.inputStatus {
+    display: block;
+}
+
+.phoneNumber {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.inputPhone {
+    display: block;
+}
+
+.city,
+.state,
+.pincode {
+    margin-top: 2rem;
+}
+
+.selectStatus {
+    color: #0f0e13;
+}
+
+.selectService {
+    margin: 0 auto;
+    margin-top: 4rem;
+    color: #0f0e13;
+    width: 100%;
+    border: 1px solid transparent;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.chip {
+    padding: 4px 10px;
+    background: #000000 !important;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 11px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1rem !important;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 19px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.buttonSumbit {
+    margin-top: 5rem;
+    background-color: #000;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 1rem 1.6rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.buttonSumbit:hover {
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+
+
+}
+
+@media (min-width: 768px) {
+    .buttonSumbit {
+        font-size: 1.125rem;
+        padding: 1rem 2rem;
+    }
+}
+
+
+@media screen and (max-width:1390px) {
+
+    .formBox {
+        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        margin: 0 auto;
+        margin-top: 3rem;
+        font-family: 'Ubuntu', sans-serif;
+        margin-bottom: 5rem;
+        padding: 2rem 0rem;
+    }
+
+    .item,
+    .item2 {
+        width: 100%;
+    }
+
+    .buildingDeatils {
+        background-color: #0f0e13;
+        border-radius: 20px 20px 0px 00px;
+        padding: 0rem 7rem;
+        padding-bottom: 3rem;
+    }
+
+
+    .compayDetails {
+        background-color: #fff;
+        color: #0f0e13;
+        border-radius: 0px 0px 20px 20px;
+        width: 100%;
+        padding: 0rem 7rem;
+        padding: 2rem;
+        padding-bottom: 3rem;
+
+
+    }
+}

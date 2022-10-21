@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+.MainDiv{
+
+    margin: 0 auto;
+     /* background-color: #0b0811; */
+     background-size: cover;
+   
+}
+.Building-heading
+{
+    margin: 40px;
+}
+.Building-heading h1
+{
+    font-size: 4.4rem;
+    font-family: 'Rubik', sans-serif;    
+}
+.MainDiv h3{
+    color: aliceblue;
+    text-align: left;
+    font-size: 30px;
+}
+
+hr {
+    margin: 1rem 0;
+    color: aliceblue;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+    margin-left: 70px;
+    width: 60%;
+}
+
+.MainDiv h5{
+
+    padding-left: 70px;
+    color: aliceblue;
+    text-align: left;
+}
+
+
+.MainDiv p{
+    padding-left: 70px;
+    color: aliceblue;
+    text-align: left;
+    
+}
+
+
+.black{
+    background-color: #050011;
+}
+
+.container{
+    width: 100%;
+}
+
+#buildingName{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.buildingTable{
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 21%;
+    transform: translate(-50%);
+}

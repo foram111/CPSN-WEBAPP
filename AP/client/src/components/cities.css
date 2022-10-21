@@ -1,0 +1,95 @@
+.Main-Cards{
+   margin: auto;
+}
+
+.row-cards{
+
+    display: flex;
+    margin: 20px 10px;
+
+}
+
+.column-cards{
+    margin: auto 10px;
+    width: 80%;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+
+.Area-Box li{
+    display: inline-block;
+    padding: 15px;
+   
+    color: rgb(170, 170, 170);
+    border: 0.5px solid rgba(80, 79, 79, 0.233);
+    border-radius: 10px;
+    margin: 20px 10px;
+  
+}
+
+
+
+.Area-Box li h4{
+
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.Area-Box p{
+
+    font-size: 12px;
+}
+
+
+.Main-Area ul{
+    margin-top: 15px;
+    margin-left: -50px;
+}
+
+
+.Main-Cards h1{
+ 
+    margin: 20px 50px;
+    font-size: 30px;
+    color: rgb(0, 2, 12);
+}
+
+.Cities-cards{
+    background-color: rgb(245, 245, 245);
+    margin: 10px 0px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+.Cities-cards h1{
+
+    font-size: 20px;
+    color: rgb(0, 2, 12);
+    margin:0;
+}
+
+.Cities-cards h3{
+
+    font-size: 15px;
+    color: rgb(0, 2, 12);
+    margin:0;
+}
+
+.Cities-cards h4{
+
+    font-size: 13px;
+    color: rgb(53, 53, 53);
+    margin:0;
+}
+
+.bui-btn{
+
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 12px;
+    float: right;
+    border-bottom: .1px solid rgb(173, 173, 173);
+    border-right: .2px solid rgb(105, 105, 105);
+}
